@@ -1,0 +1,28 @@
+{
+  "name": "google-translate-worker",
+  "version": "1.0.0",
+  "description": "A worker for ironworker to translate english messages to spanish",
+  "main": "translate_worker.js",
+  "scripts": {
+    "start": "node translate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "3.3.4",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "errorhandler": "^1.1.1",
+    "google-translate": "1.0.6",
+    "helmet": "^1.3.0",
+    "iron_worker": "0.1.6",
+    "loopback": "2.27.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-connector-remote": "^1.2.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "serve-favicon": "^2.0.1",
+    "strong-remoting": "^2.26.0"
+  }
+}

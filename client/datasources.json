@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "remoteDS": {
+    "url": "http://message-app.mybluemix.net/api",
+    "name": "remoteDS",
+    "connector": "remote"
+  }
+}
